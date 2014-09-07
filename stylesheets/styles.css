@@ -2765,21 +2765,25 @@ h1, h2, h3, p {
 /* line 13, ../sass/_typography.scss */
 h1 {
   font-size: 4rem;
+  line-height: 6rem;
 }
 
-/* line 16, ../sass/_typography.scss */
+/* line 17, ../sass/_typography.scss */
 h2 {
   font-size: 2.4rem;
+  line-height: 3.6rem;
 }
 
-/* line 19, ../sass/_typography.scss */
+/* line 21, ../sass/_typography.scss */
 h3 {
   font-size: 2rem;
+  line-height: 3.4rem;
 }
 
-/* line 22, ../sass/_typography.scss */
+/* line 25, ../sass/_typography.scss */
 p {
   font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
 /* line 1, ../sass/layout/_header.scss */
@@ -2799,6 +2803,7 @@ header.magic-header {
   /* line 14, ../sass/layout/_header.scss */
   header.magic-header h1 {
     font-size: 3rem;
+    line-height: 4.5rem;
   }
 }
 @media (max-width: 480px) {
@@ -2807,9 +2812,10 @@ header.magic-header {
     padding: 0.6rem;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
   }
-  /* line 23, ../sass/layout/_header.scss */
+  /* line 24, ../sass/layout/_header.scss */
   header.magic-header h1 {
     font-size: 2.5rem;
+    line-height: 4rem;
   }
 }
 
@@ -2835,4 +2841,9 @@ body {
   body {
     background: rgba(0, 0, 255, 0.3);
   }
+}
+
+/* line 30, ../sass/layout/_body.scss */
+.magic-body {
+  padding: 2rem;
 }

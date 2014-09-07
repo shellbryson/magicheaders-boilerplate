@@ -8,14 +8,25 @@
 }
 
 /////////////////////////////////////////////////
-// BODY
+// HTML BODY
 //
 body {
+
+  // Breaks
   background:$color-large-background;
+
+  // Breakpoints
   @include breakpoint(medium) {
     background:$color-medium-background;
   }
   @include breakpoint(small) {
     background:$color-small-background;
   }
+}
+
+/////////////////////////////////////////////////
+// CONTENT BODY
+//
+.magic-body {
+  padding:2rem;
 }
