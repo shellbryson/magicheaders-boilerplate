@@ -1,0 +1,11 @@
+// Magic Headers Boilerplate SCSS imports
+// Stick your global settings inside _vars, all typographic styling in _typography
+
+// Setup
+@import "_vars.scss";
+@import "_typography.scss";
+@import "compass";
+// Layout
+@import "layout/_header.scss";
+@import "layout/_body.scss";
+@import "layout/_footer.scss";
