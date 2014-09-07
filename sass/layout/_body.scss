@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////
+// GLOBAL
+//
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/////////////////////////////////////////////////
+// BODY
+//
+body {
+  background:$color-large-background;
+  @include breakpoint(medium) {
+    background:$color-medium-background;
+  }
+  @include breakpoint(small) {
+    background:$color-small-background;
+  }
+}
