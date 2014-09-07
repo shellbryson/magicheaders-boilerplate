@@ -1,1 +1,16 @@
-// hello
+/////////////////////////////////////////////////
+// COLORS
+//
+// @include breakpoint( small )
+$color-large-background: rgba(0,0,255,0.1);
+$color-medium-background: rgba(0,0,255,0.2);
+$color-small-background: rgba(0,0,255,0.3);
+
+///////////////////////////////////////////////////
+// BREAKPOINTS
+//
+// @include breakpoint( small )
+$breakpoints: (
+  small "(max-width:480px)",
+  medium "(max-width:767px)"
+);

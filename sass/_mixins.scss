@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////
+// BREAKPOINT
+//
+// eg:
+// @include breakpoint(small) {
+//   width: 100%;
+// }
+@mixin breakpoint($name) {
+  @each $breakpoint in $breakpoints {
+    $breakpointName: nth($breakpoint, 1);
+    $breakpointRule: nth($breakpoint, 2);
+    @if $breakpointName == $name {
+      @media #{$breakpointRule} {
+        @content;
+      }
+    }
+  }
+}

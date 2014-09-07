@@ -2,9 +2,15 @@
 // Stick your global settings inside _vars, all typographic styling in _typography
 
 // Setup
-@import "_vars.scss";
-@import "_typography.scss";
 @import "compass";
+@import "compass/reset";
+
+// Defaults
+@import "_vars.scss";
+@import "_mixins.scss";
+@import "_typography.scss";
+@import "vendor/font-awesome-4.2.0/scss/font-awesome.scss";
+
 // Layout
 @import "layout/_header.scss";
 @import "layout/_body.scss";
